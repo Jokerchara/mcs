@@ -34,7 +34,7 @@
               <ul class="profile-dropdown onhover-show-div">
                 <li><a href="#"><i data-feather="user"></i><span>Account </span></a></li>
                 <li><a href="#"><i data-feather="settings"></i><span>Settings</span></a></li>
-                <li><a href="#"><i data-feather="log-in"> </i><span>Log in</span></a></li>
+                <li><a href="/login"><i data-feather="log-in"> </i><span>Log in</span></a></li>
               </ul>
           </li>
         </ul>

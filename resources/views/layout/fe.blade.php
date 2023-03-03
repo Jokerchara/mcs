@@ -124,6 +124,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
     <script src="../assets/js/map-js/mapsjs-mapevents.js"></script>
     <script src="../assets/js/map-js/custom.js"></script>
 
+    
+    <script src="../assets/js/button-tooltip-custom.js"></script>
+
     <script src="../assets/js/notify/bootstrap-notify.min.js"></script>
     <script src="../assets/js/dashboard/default.js"></script>
     <script src="../assets/js/notify/index.js"></script>

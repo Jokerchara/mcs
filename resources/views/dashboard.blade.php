@@ -24,173 +24,351 @@
               <div class="map-js-height" id="map-canvas"></div>
             </div>
           </div>
-        </div>              
-      <div class="col-xl-8 xl-80 dashboard-sec box-col-10">
-        <div class="card earning-card">
-          <div class="card-body p-0">
-            <div class="row m-0">
-              <div class="col-xl-13 p-1">
-                <div class="chart-right">
-                  <div class="row m-0 p-tb">
-                    <div class="col-xl-8 col-md-2 col-sm-8 col-12 p-0">
-                      <div class="inner-top-left">
-                        <h4>Yearly Partners Activity</h4>
-                      </div>
-                    </div>
-                    <div class="col-xl-4 col-md-4 col-sm-4 col-12 p-0 justify-content-end">
-                      <div class="inner-top-right">
-                        <ul class="d-flex list-unstyled justify-content-end">
-                            <div class="dropdown">
-                                <button class="btn-outline-light btn-air-light btn-xs txt-dark btn dropdown-toggle" id="dropdownMenuButton"type="button" data-bs-toggle="dropdown" aria-expanded="false">Details</button>
-                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Details</a><a class="dropdown-item" href="#">Month</a><a class="dropdown-item" href="#">Day</a></div>
-                              </div>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-xl-12">
-                      <div class="card-body p-0">
-                        <div class="current-sale-container">
-                          <div id="area-spaline"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+        </div>   
+
+        <!-- -->
+        <div class="col-xl-2 xl-25 chart_data_right box-col-10">
+          <div class="card">
+            <div class="card-body" style="height: 40px">
+              <div class="media align-items-center" style="height: 10px">
+                <img class="img-fluid for-light" src="../assets/albi/dashboard/Outlet.png" alt="image" height="50" width="50" style="margin-right: 10px">
+                <div class="media-body right-chart-content" style="margin-top: 10px">
+                  <span>Total Outlet<font color="red"><h5>3</h5></font></span>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <div class="col-xl-2 xl-25 chart_data_right second d-none"> 
+          <div class="card">
+            <div class="card-body" style="height: 40px">
+              <div class="media align-items-center" style="height: 10px">
+                <img class="img-fluid for-light" src="../assets/albi/dashboard/File_Check.png" alt="image" height="50" width="50" style="margin-right: 10px">
+                <div class="media-body right-chart-content" style="margin-top: 10px"> 
+                  <span>Total Transaksi</span><h5>2,233</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 xl-25 chart_data_right box-col-10" >
+          <div class="card">
+            <div class="card-body" style="height: 40px">
+              <div class="media align-items-center" style="height: 10px">
+                <img class="img-fluid for-light" src="../assets/albi/dashboard/Shopping_Cart.png" alt="image" height="45" width="45" style="margin-right: 10px">
+                <div class="media-body right-chart-content" style="margin-top: 10px">
+                  <span>Total Omset</span><h5>Rp2,5M</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 xl-25 chart_data_right second d-none"> 
+          <div class="card">
+            <div class="card-body" style="height: 40px">
+              <div class="media align-items-center" style="height: 10px">
+                <img class="img-fluid for-light" src="../assets/albi/dashboard/Chart_Line.png" alt="image" height="45" width="45" style="margin-right: 10px">
+                <div class="media-body right-chart-content" style="margin-top: 10px"> 
+                  <span>Total Profit</span><h5>Rp502 JT</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>   
+
+      <!-- -->
+
+      <!-- Top Product -->
+
+      <div class="col-xl-4 xl-20 appointment-sec box-col-6">
+        <div class="row"> 
+            <div class="col-xl-15 appointment">
+              <div class="card">
+                <div class="card-header card-no-border">
+                  <div class="header-top">
+                    <font size="6" color="red"><h3 class="m-0">Top 10 Products</h3></font>
+                  </div>
+                </div>
+              <div class="card-body">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Nama Produk</th>
+                      <th class="text-end">Penjualan</th>				
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                        <td>Produk ABC</td>
+                        <td class="text-end">2.233.023</td>
+                    </tr>
+                    <tr>
+                        <td>Produk DEF</td>
+                        <td class="text-end">1.525.900</td>
+                    </tr>
+                    <tr>
+                        <td>Produk GHI</td>
+                        <td class="text-end">1.495.250</td>
+                    </tr>
+                    <tr>
+                        <td>Produk JKLM</td>
+                        <td class="text-end">1.205.890</td>
+                    </tr>
+                    <tr>
+                        <td>Produk NOP</td>
+                        <td class="text-end">924.412</td>
+                    </tr>
+                    <tr>
+                        <td>Produk ABC</td>
+                        <td class="text-end">2.233.023</td>
+                    </tr>
+                    <tr>
+                        <td>Produk DEF</td>
+                        <td class="text-end">1.525.900</td>
+                    </tr>
+                    <tr>
+                        <td>Produk GHI</td>
+                        <td class="text-end">1.495.250</td>
+                    </tr>
+                    <tr>
+                        <td>Produk JKLM</td>
+                        <td class="text-end">1.205.890</td>
+                    </tr>
+                    <tr>
+                        <td>Produk NOP</td>
+                        <td class="text-end">924.412</td>
+                    </tr>
+                  </tbody>
+                </table>                      
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <div class="col-xl-4 xl-20 appointment-sec box-col-6">
+        <div class="row"> 
+            <div class="col-xl-15 appointment">
+              <div class="card">
+                <div class="card-header card-no-border">
+                  <div class="header-top">
+                    <font size="6" color="red"><h3 class="m-0">Top 10 Kategori</h3></font>
+                  </div>
+                </div>
+              <div class="card-body">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Nama Produk</th>
+                      <th class="text-end">Penjualan</th>				
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                        <td>Makanan dan Minuman</td>
+                        <td class="text-end">2.233.023</td>
+                    </tr>
+                    <tr>
+                        <td>Kategori A</td>
+                        <td class="text-end">1.525.900</td>
+                    </tr>
+                    <tr>
+                        <td>Kategori B</td>
+                        <td class="text-end">1.495.250</td>
+                    </tr>
+                    <tr>
+                        <td>Kategori C</td>
+                        <td class="text-end">1.205.890</td>
+                    </tr>
+                    <tr>
+                        <td>Kategori D</td>
+                        <td class="text-end">924.412</td>
+                    </tr><tr>
+                        <td>Kategori E</td>
+                        <td class="text-end">2.233.023</td>
+                    </tr>
+                    <tr>
+                        <td>Kategori F</td>
+                        <td class="text-end">1.525.900</td>
+                    </tr>
+                    <tr>
+                        <td>Kategori G</td>
+                        <td class="text-end">1.495.250</td>
+                    </tr>
+                    <tr>
+                        <td>Kategori H</td>
+                        <td class="text-end">1.205.890</td>
+                    </tr>
+                    <tr>
+                        <td>Kategori I</td>
+                        <td class="text-end">924.412</td>
+                    </tr>
+                  </tbody>
+                </table>                      
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="col-xl-4 xl-20 appointment-sec box-col-6">
         <div class="row"> 
           <div class="col-xl-15 appointment">
             <div class="card">
               <div class="card-header card-no-border">
                 <div class="header-top">
-                  <h5 class="m-0">Top Products</h5>
+                  <font size="6" color="red"><h3 class="m-0">Top 10 Pelanggan</h3></font>
                 </div>
               </div>
             <div class="card-body">
                 <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Product Name</th>
-                            <th class="text-end">Total Orders</th>				
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Produk ABC</td>
-                            <td class="text-end">2.233.023</td>
-                        </tr>
-                        <tr>
-                            <td>Produk DEF</td>
-                            <td class="text-end">1.525.900</td>
-                        </tr>
-                        <tr>
-                            <td>Produk GHI</td>
-                            <td class="text-end">1.495.250</td>
-                        </tr>
-                        <tr>
-                            <td>Produk JKLM</td>
-                            <td class="text-end">1.205.890</td>
-                        </tr>
-                        <tr>
-                            <td>Produk NOP</td>
-                            <td class="text-end">924.412</td>
-                        </tr>
-                    </tbody>
-                </table>
-                    <center><div class=" btn btn-outline-secondary-2x" style="margin-top: 20px">More Detail</div></center>
-                      
+                  <thead>
+                    <tr>
+                      <th>Nama Produk</th>
+                      <th class="text-end">Penjualan</th>				
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                        <td> A</td>
+                        <td class="text-end">2.233.023</td>
+                    </tr>
+                    <tr>
+                        <td> B</td>
+                        <td class="text-end">1.525.900</td>
+                    </tr>
+                    <tr>
+                        <td> C</td>
+                        <td class="text-end">1.495.250</td>
+                    </tr>
+                    <tr>
+                        <td> D</td>
+                        <td class="text-end">1.205.890</td>
+                    </tr>
+                    <tr>
+                        <td> E</td>
+                        <td class="text-end">924.412</td>
+                    </tr><tr>
+                        <td> F</td>
+                        <td class="text-end">2.233.023</td>
+                    </tr>
+                    <tr>
+                        <td> G</td>
+                        <td class="text-end">1.525.900</td>
+                    </tr>
+                    <tr>
+                        <td> H</td>
+                        <td class="text-end">1.495.250</td>
+                    </tr>
+                    <tr>
+                        <td> I</td>
+                        <td class="text-end">1.205.890</td>
+                    </tr>
+                    <tr>
+                        <td> J</td>
+                        <td class="text-end">924.412</td>
+                    </tr>
+                  </tbody>
+                </table>                      
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</div>
-</div>
-    <div class="col-xl-8 xl-80 dashboard-sec box-col-10">
+      </div>
+
+      <!-- Top Product -->
+
+      <!-- Daily Sales -->
+
+      <div class="col-xl-8 xl-100 dashboard-sec box-col-10">
         <div class="card earning-card">
-            <div class="card-body p-0">
-                <div class="card-header card-no-border">
-                    <div class="header-top">
-                        <h5 class="m-0">Orders Activity</h5>
-                    </div>
-                </div>
+          <div class="card-body p-0">
+            <div class="card-header card-no-border">
+              <div class="header-top">
+                 <h5 class="m-0">Orders Activity</h5>
+              </div>
+            </div>
                 <div class="card-body">
                     <div class="table-resposive">
-                        <table class="display" id="basic-2">
+                        <table class="display" id="basic-1">
                             <thead>
                                 <tr>
-                                    <th><center>Partners name</center></th>
-                                    <th><center>No. Id Partners</center></th>
-                                    <th><center>Orders</center></th>
-                                    <th><center>Total</center></th>
-                                    <th><center>Date</center></th>
-                                    <th><center>Status</center></th>
-                                    <th><center>Option</center></th>				
+                                    <th>Nama Pelanggan</th>
+                                    <th>No. Id Pelanggan</th>
+                                    <th>Outlet</th>
+                                    <th>Orders</th>
+                                    <th>Total</th>
+                                    <th>No.Transaksi</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                    <th>Options</th>				
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>Produk ABC</td>
                                     <td>No.11320135</td>
-                                    <td><center><i class="icofont icofont-paper"></i></center></td>
+                                    <td>Outlet A</td>
+                                    <td><i class="icofont icofont-paper"></i></td>
                                     <td>Rp1.205.890</td>
+                                    <td>#A251205251</td>
                                     <td>10/07/2021</td>
-                                    <td><center><label class="badge badge-light-success">Done</label></center></td>
+                                    <td><label class="badge badge-light-success">Done</label></td>
                                     <td><div class="dropdown" >
-                                        <button class="btn-air-light txt-dark btn dropdown-toggle" id="dropdownMenuButton"type="button" data-bs-toggle="dropdown" aria-expanded="false">Details</button>
-                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Details</a><a class="dropdown-item" href="#">Month</a><a class="dropdown-item" href="#">Day</a></div>
+                                        <button class="btn-air-light txt-dark btn dropdown-toggle" id=""type="button" data-bs-toggle="dropdown" aria-expanded="false">Details</button>
                                       </div></td>
                                 </tr>
                                 <tr>
                                     <td>Produk DEF</td>
                                     <td>No.11344135</td>
-                                    <td><center><i class="icofont icofont-paper"></i></center></td>
+                                    <td>Outlet B</td>
+                                    <td><i class="icofont icofont-paper"></i></td>
                                     <td>Rp1.205.890</td>
+                                    <td>#A251205251</td>
                                     <td>10/01/2023</td>
-                                    <td><center><label class="badge badge-light-secondary">On Process</label></center></td>
+                                    <td><label class="badge badge-light-success">Done</label></td>
                                     <td><div class="dropdown">
-                                        <button class="btn-air-light txt-dark btn dropdown-toggle" id="dropdownMenuButton"type="button" data-bs-toggle="dropdown" aria-expanded="false">Details</button>
-                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Details</a><a class="dropdown-item" href="#">Month</a><a class="dropdown-item" href="#">Day</a></div>
+                                        <button class="btn-air-light txt-dark btn dropdown-toggle" id=""type="button" data-bs-toggle="dropdown" aria-expanded="false">Details</button>
                                       </div></td>
                                 </tr>
                                 <tr>
                                     <td>Produk GHI</td>
                                     <td>No.11320441</td>
-                                    <td><center><i class="icofont icofont-paper"></i></center></i></td>
+                                    <td>Outlet C</td>
+                                    <td><i class="icofont icofont-paper"></i></td>
                                     <td>Rp1.205.890</td>
+                                    <td>#A251205251</td>
                                     <td>10/12/2021</td>
-                                    <td><center><label class="badge badge-light-secondary">On Process</label></center></td>
+                                    <td><label class="badge badge-light-success">Done</label></td>
                                     <td><div class="dropdown">
-                                        <button class="btn-air-light txt-dark btn dropdown-toggle" id="dropdownMenuButton"type="button" data-bs-toggle="dropdown" aria-expanded="false">Details</button>
-                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Details</a><a class="dropdown-item" href="#">Month</a><a class="dropdown-item" href="#">Day</a></div>
+                                        <button class="btn-air-light txt-dark btn dropdown-toggle" id=""type="button" data-bs-toggle="dropdown" aria-expanded="false">Details</button>
                                       </div></td>
                                 </tr>
                                 <tr>
                                     <td>Produk JKLM</td>
                                     <td>No.11320514</td>
-                                    <td><center><i class="icofont icofont-paper"></i></center></td>
+                                    <td>Outlet D</td>
+                                    <td><i class="icofont icofont-paper"></i></td>
                                     <td>Rp1.205.890</td>
+                                    <td>#A251205251</td>
                                     <td>01/03/2023</td>
-                                    <td><center><label class="badge badge-light-secondary">On Process</label></center></td>
+                                    <td><label class="badge badge-light-success">Done</label></td>
                                     <td><div class="dropdown">
-                                        <button class=" btn-air-light txt-dark btn dropdown-toggle" id="dropdownMenuButton"type="button" data-bs-toggle="dropdown" aria-expanded="false">Details</button>
-                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Details</a><a class="dropdown-item" href="#">Month</a><a class="dropdown-item" href="#">Day</a></div>
+                                        <button class=" btn-air-light txt-dark btn dropdown-toggle" id=""type="button" data-bs-toggle="dropdown" aria-expanded="false">Details</button>
                                       </div></td>
                                 </tr>
                                 <tr>
                                     <td>Produk NOP</td>
                                     <td>No.11326617</td>
-                                    <td><center><i class="icofont icofont-paper"></i></center></td>
+                                    <td>Outlet E</td>
+                                    <td><i class="icofont icofont-paper"></i></td>
                                     <td>Rp1.205.890</td>
+                                    <td>#A251205251</td>
                                     <td>10/02/2023</td>
-                                    <td><center><label class="badge badge-light-secondary">On Process</label></center></td>
+                                    <td><label class="badge badge-light-success">Done</label></td>
                                     <td><div class="dropdown">
-                                        <button class="btn-air-light txt-dark btn dropdown-toggle" id="dropdownMenuButton"type="button" data-bs-toggle="dropdown" aria-expanded="false">Details</button>
-                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Details</a><a class="dropdown-item" href="#">Month</a><a class="dropdown-item" href="#">Day</a></div>
+                                        <button class="btn-air-light txt-dark btn dropdown-toggle" id=""type="button" data-bs-toggle="dropdown" aria-expanded="false">Details</button>
                                         </div>
                                     </td>
                                 </tr>
@@ -201,52 +379,6 @@
             </div> 
         </div>
     </div>
-      <div class="col-xl-4 xl-20 appointment-sec box-col-6">
-        <div class="card">
-            <div class="card-header">
-              <h5>Top Partners</h5></div>
-            <div class="table-responsive">
-              <table class="table-sm" style="margin-bottom: 20px">
-                <thead>
-                  <tr>
-                    <th>Image</th>
-                    <th>Partners Name & No.ID</th>				
-                    <th>Yearly Omset</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><img src="../assets/albi/wemart.ico" alt="image" height="50" width="50"></td>
-                    <td class="text-end">2.233.023</td>
-                    <td>1.22M</td>
-                </tr>
-                <tr>
-                    <td><img src="../assets/albi/wemart.ico" alt="image" height="50" width="50"></td>
-                    <td class="text-end">1.525.900</td>
-                    <td>1.21M</td>
-                </tr>
-                <tr>
-                    <td><img src="../assets/albi/wemart.ico" alt="image" height="50" width="50"></td>
-                    <td class="text-end">1.495.250</td>
-                    <td>9276JT</td>
-                </tr>
-                <tr>
-                    <td><img src="../assets/albi/wemart.ico" alt="image" height="50" width="50"></td>
-                    <td class="text-end">1.205.890</td>
-                    <td>960JT</td>
-                </tr>
-                <tr>
-                    <td><img src="../assets/albi/wemart.ico" alt="image" height="50" width="50"></td>
-                    <td class="text-end">924.412</td>
-                    <td>952JT</td>
-                </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-    </div>
-</div>
-<!-- Container-fluid Ends-->
-</div>
 
+    <!-- Daily Sales -->
 @endsection

@@ -12,19 +12,21 @@
         </div>
       </div>
     </div>
-<!-- Container-fluid starts-->
+<!-- Maps -->
 <div class="container-fluid">
     <div class="row second-chart-list third-news-update">
         <div class="col-xl-20">
           <div class="card">
             <div class="card-header" style="margin-top: 0px">
-              <h5>Partners Detail On Map</h5><span>Only pin my location</span>
+              <font size="6" color="red"><i><h5>Partners Detail On Map</h5></i></font><span>Only pin my location</span>
             </div>
             <div class="card-body">
               <div class="map-js-height" id="map-canvas"></div>
             </div>
           </div>
         </div>   
+
+        <!-- Maps -->
 
         <!-- -->
         <div class="col-xl-2 xl-25 chart_data_right box-col-10">
@@ -286,14 +288,14 @@
           <div class="card-body p-0">
             <div class="card-header card-no-border">
               <div class="header-top">
-                 <h5 class="m-0">Orders Activity</h5>
+                 <font color="red"><i><h3 class="m-0">Daily Sales</h3></i></font>
               </div>
             </div>
                 <div class="card-body">
                     <div class="table-resposive">
                         <table class="display" id="basic-1">
                             <thead>
-                                <tr>
+                                <tr><th></th>
                                     <th>Nama Pelanggan</th>
                                     <th>No. Id Pelanggan</th>
                                     <th>Outlet</th>
@@ -307,6 +309,7 @@
                             </thead>
                             <tbody>
                                 <tr>
+                                    <center><td><input type='checkbox' name='' /></td></center>
                                     <td>Produk ABC</td>
                                     <td>No.11320135</td>
                                     <td>Outlet A</td>
@@ -320,6 +323,7 @@
                                       </div></td>
                                 </tr>
                                 <tr>
+                                    <center><td><input type='checkbox' name='' /></td></center>
                                     <td>Produk DEF</td>
                                     <td>No.11344135</td>
                                     <td>Outlet B</td>
@@ -333,6 +337,7 @@
                                       </div></td>
                                 </tr>
                                 <tr>
+                                    <center><td><input type='checkbox' name='' /></td></center>
                                     <td>Produk GHI</td>
                                     <td>No.11320441</td>
                                     <td>Outlet C</td>
@@ -346,6 +351,7 @@
                                       </div></td>
                                 </tr>
                                 <tr>
+                                    <center><td><input type='checkbox' name='' /></td></center>
                                     <td>Produk JKLM</td>
                                     <td>No.11320514</td>
                                     <td>Outlet D</td>
@@ -359,6 +365,7 @@
                                       </div></td>
                                 </tr>
                                 <tr>
+                                    <center><td><input type='checkbox' name='' /></td></center>
                                     <td>Produk NOP</td>
                                     <td>No.11326617</td>
                                     <td>Outlet E</td>
@@ -379,6 +386,5 @@
             </div> 
         </div>
     </div>
-
     <!-- Daily Sales -->
 @endsection

@@ -20,12 +20,6 @@
         <ul class="nav-menus">
           <li><span class="header-search"><i data-feather="search"></i></span></li>
           <li class="onhover-dropdown">
-            <div class="notification-box"><i data-feather="bell"> </i><span class="badge rounded-pill badge-secondary">1</span></div>
-          </li>
-          <li class="onhover-dropdown">
-            <div class="notification-box"><i data-feather="message-square"></i><span class="badge rounded-pill badge-secondary">2</span></div>
-          </li>
-          <li class="onhover-dropdown">
             <div class="media profile-media"><img class="b-r-10" src="../assets/images/dashboard/profile.jpg" alt="">
                 <div class="media-body"><span>Albi Nur</span>
                   <p class="mb-0 font-roboto">Admin <i class="middle fa fa-angle-down"></i></p>

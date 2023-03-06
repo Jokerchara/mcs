@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('dashboard');
 });
 
+Route::get('/pelanggan', function () {
+    return view('pelanggan');
+});
+
 Route::get('/login', function () {
     return view('login');
 });

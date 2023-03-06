@@ -22,11 +22,16 @@
 
             <li class="sidebar-list">
               <a class="sidebar-link sidebar-title">
-              <i data-feather="list"></i>
+              <i data-feather="clipboard"></i>
               <span>Pusat Data</span></a>
               <ul class="sidebar-submenu">
-                <li><a href="#">General</a></li>
-                <li><a href="#">Chart</a></li>
+                <li><a href="#" >Produk</a></li>
+                <li><a href="/pelanggan" >Pelanggan</a></li>
+                <li><a href="#" >Supplier</a></li>
+                <li><a href="#" >Gudang & Outlet</a></li>
+                <li><a href="#" >Keuangan</a></li>
+                <li><a href="#" >Karyawan</a></li>
+                <li><a href="#" >Kendaraan</a></li>
               </ul>
             </li>
 

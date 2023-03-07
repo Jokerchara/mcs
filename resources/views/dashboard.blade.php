@@ -286,12 +286,10 @@
       <div class="col-xl-8 xl-100 dashboard-sec box-col-10">
         <div class="card earning-card">
           <div class="card-body p-0">
-            <div class="card-header card-no-border">
-              <div class="header-top">
-                 <font color="red"><i><h3 class="m-0">Daily Sales</h3></i></font>
-              </div>
-            </div>
                 <div class="card-body">
+                  <div class="header-top">
+                     <font color="red"><i><h3 class="m-0">Daily Sales</h3></i></font>
+                  </div>
                     <div class="table-resposive">
                         <table class="display" id="basic-1">
                             <thead>

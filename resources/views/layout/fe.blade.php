@@ -41,6 +41,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
     <link rel="stylesheet" type="text/css" href="../assets/css/vendors/icofont.css">
     <!-- Themify icon-->
     <link rel="stylesheet" type="text/css" href="../assets/css/vendors/themify.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/photoswipe.css">
     <!-- Flag icon-->
     <link rel="stylesheet" type="text/css" href="../assets/css/vendors/flag-icon.css">
     <!-- Feather icon-->
@@ -79,8 +80,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
       
       @include('layout.navbar')
 
-      <!-- Page Header Ends                              -->
-      <!-- Page Body Start-->
+      <!-- Page Header Ends -->
+      <!-- Page Body Start -->
       <div class="page-body-wrapper">
         <!-- Page Sidebar Start-->
         
@@ -89,65 +90,68 @@ google.maps.event.addDomListener(window, 'load', initialize);
         <!-- Page Sidebar Ends-->
           <!-- Container-fluid starts-->
           
-          @yield('content')
-          
-    
-    <!-- latest jquery-->
-    <script src="../assets/js/jquery-3.5.1.min.js"></script>
-    <!-- Bootstrap js-->
-    <script src="../assets/js/bootstrap/bootstrap.bundle.min.js"></script>
-    <!-- feather icon js-->
-    <script src="../assets/js/icons/feather-icon/feather.min.js"></script>
-    <script src="../assets/js/icons/feather-icon/feather-icon.js"></script>
-    <!-- scrollbar js-->
-    <script src="../assets/js/scrollbar/simplebar.js"></script>
-    <script src="../assets/js/scrollbar/custom.js"></script>
-    <!-- Sidebar jquery-->
-    <script src="../assets/js/config.js"></script>
-    <!-- Plugins JS start-->
-    <script src="../assets/js/sidebar-menu.js"></script>
-
-    <script src="../assets/js/chart/chartist/chartist.js"></script>
-    <script src="../assets/js/chart/chartist/chartist-plugin-tooltip.js"></script>
-    
-    <script src="../assets/js/chart/knob/knob.min.js"></script>
-    <script src="../assets/js/chart/knob/knob-chart.js"></script>
-
-    <script src="../assets/js/chart/apex-chart/apex-chart.js"></script>
-    <script src="../assets/js/chart/apex-chart/stock-prices.js"></script>
-    <script src="../assets/js/chart/apex-chart/chart-custom.js"></script>
-    <script src="../assets/js/chart/apex-chart/stock-prices.js"></script>
-
-    <script src="../assets/js/map-js/mapsjs-core.js"></script>
-    <script src="../assets/js/map-js/mapsjs-service.js"></script>
-    <script src="../assets/js/map-js/mapsjs-ui.js"></script>
-    <script src="../assets/js/map-js/mapsjs-mapevents.js"></script>
-    <script src="../assets/js/map-js/custom.js"></script>
-
-    
-    <script src="../assets/js/button-tooltip-custom.js"></script>
-
-    <script src="../assets/js/notify/bootstrap-notify.min.js"></script>
-    <script src="../assets/js/dashboard/default.js"></script>
-    <script src="../assets/js/notify/index.js"></script>
-
-    <script src="../assets/js/datepicker/date-picker/datepicker.js"></script>
-    <script src="../assets/js/datepicker/date-picker/datepicker.en.js"></script>
-    <script src="../assets/js/datepicker/date-picker/datepicker.custom.js"></script>
-
-    <script src="../assets/js/datatable/datatables/jquery.dataTables.min.js"></script>
-    <script src="../assets/js/datatable/datatables/datatable.custom.js"></script>
-
-    <script src="../assets/js/typeahead/handlebars.js"></script>
-    <script src="../assets/js/typeahead/typeahead.bundle.js"></script>
-    <script src="../assets/js/typeahead/typeahead.custom.js"></script>
-    <script src="../assets/js/typeahead-search/handlebars.js"></script>
-    <script src="../assets/js/typeahead-search/typeahead-custom.js"></script>
-    <!-- Plugins JS Ends-->
-    <!-- Theme js-->
-    <script src="../assets/js/script.js"></script>
-    <script src="../assets/js/theme-customizer/customizer.js"></script>
-    <!-- login js-->
-    <!-- Plugin used-->
+          @yield('content')   
   </body>
+
+  <!-- latest jquery-->
+  <script src="../assets/js/jquery-3.5.1.min.js"></script>
+  <!-- Bootstrap js-->
+  <script src="../assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+  <!-- feather icon js-->
+  <script src="../assets/js/icons/feather-icon/feather.min.js"></script>
+  <script src="../assets/js/icons/feather-icon/feather-icon.js"></script>
+  <!-- scrollbar js-->
+  <script src="../assets/js/scrollbar/simplebar.js"></script>
+  <script src="../assets/js/scrollbar/custom.js"></script>
+  <!-- Sidebar jquery-->
+  <script src="../assets/js/config.js"></script>
+  <!-- Plugins JS start-->
+  <script src="../assets/js/sidebar-menu.js"></script>
+  <script src="../assets/js/photoswipe/photoswipe.min.js"></script>
+  <script src="../assets/js/photoswipe/photoswipe-ui-default.min.js"></script>
+  <script src="../assets/js/photoswipe/photoswipe.js"></script>
+  <script src="../assets/js/tooltip-init.js"></script>
+
+  <script src="../assets/js/chart/chartist/chartist.js"></script>
+  <script src="../assets/js/chart/chartist/chartist-plugin-tooltip.js"></script>
+  
+  <script src="../assets/js/chart/knob/knob.min.js"></script>
+  <script src="../assets/js/chart/knob/knob-chart.js"></script>
+
+  <script src="../assets/js/chart/apex-chart/apex-chart.js"></script>
+  <script src="../assets/js/chart/apex-chart/stock-prices.js"></script>
+  <script src="../assets/js/chart/apex-chart/chart-custom.js"></script>
+  <script src="../assets/js/chart/apex-chart/stock-prices.js"></script>
+
+  <script src="../assets/js/map-js/mapsjs-core.js"></script>
+  <script src="../assets/js/map-js/mapsjs-service.js"></script>
+  <script src="../assets/js/map-js/mapsjs-ui.js"></script>
+  <script src="../assets/js/map-js/mapsjs-mapevents.js"></script>
+  <script src="../assets/js/map-js/custom.js"></script>
+
+  
+  <script src="../assets/js/button-tooltip-custom.js"></script>
+
+  <script src="../assets/js/notify/bootstrap-notify.min.js"></script>
+  <script src="../assets/js/dashboard/default.js"></script>
+  <script src="../assets/js/notify/index.js"></script>
+
+  <script src="../assets/js/datepicker/date-picker/datepicker.js"></script>
+  <script src="../assets/js/datepicker/date-picker/datepicker.en.js"></script>
+  <script src="../assets/js/datepicker/date-picker/datepicker.custom.js"></script>
+
+  <script src="../assets/js/datatable/datatables/jquery.dataTables.min.js"></script>
+  <script src="../assets/js/datatable/datatables/datatable.custom.js"></script>
+
+  <script src="../assets/js/typeahead/handlebars.js"></script>
+  <script src="../assets/js/typeahead/typeahead.bundle.js"></script>
+  <script src="../assets/js/typeahead/typeahead.custom.js"></script>
+  <script src="../assets/js/typeahead-search/handlebars.js"></script>
+  <script src="../assets/js/typeahead-search/typeahead-custom.js"></script>
+  <!-- Plugins JS Ends-->
+  <!-- Theme js-->
+  <script src="../assets/js/script.js"></script>
+  <script src="../assets/js/theme-customizer/customizer.js"></script>
+  <!-- login js-->
+  <!-- Plugin used-->
 </html>

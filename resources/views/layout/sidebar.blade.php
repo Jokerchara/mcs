@@ -28,7 +28,7 @@
                 <li><a href="#" >Produk</a></li>
                 <li><a href="/pelanggan" >Pelanggan</a></li>
                 <li><a href="#" >Supplier</a></li>
-                <li><a href="#" >Gudang & Outlet</a></li>
+                <li><a href="/gudang" >Gudang & Outlet</a></li>
                 <li><a href="#" >Keuangan</a></li>
                 <li><a href="#" >Karyawan</a></li>
                 <li><a href="#" >Kendaraan</a></li>

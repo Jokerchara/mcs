@@ -16,10 +16,24 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('dashboard');
 });
-
 Route::get('/pelanggan', function () {
     return view('pelanggan');
 });
+
+//-- Gudang --//
+
+Route::get('/gudang', function (){
+    return view('gudang');
+});
+Route::get('/tambahgudang', function (){
+    return view('gudang.tambah');
+});
+Route::get('/editgudang', function (){
+    return view('gudang.edit');
+});
+//-- Gudang --//
+
+
 
 Route::get('/login', function () {
     return view('login');

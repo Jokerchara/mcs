@@ -11,10 +11,6 @@
         </div>
       </form>
       <div class="left-header col horizontal-wrapper ps-0">
-        <ul class="horizontal-menu">
-          <li><p><font size="6" color="red"><i>Dashboard</i></font></p>
-          </li>
-        </ul>
       </div>
       <div class="nav-right col-8 pull-right right-header p-0">
         <ul class="nav-menus">

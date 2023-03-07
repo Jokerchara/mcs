@@ -1241,9 +1241,19 @@
 }
 
 
-
-
-
+.aktif-nonaktif{
+  height: 7%;
+  width: 9%;
+}
+.cctv-albi{
+  background-color: #F2994A;
+  border-color: #99000000;
+  width: 8cm;
+}
+.ukuran-albi{
+  height: 27px;
+  width: 107px;
+}
 .dot-edit-albi{
   height: 27px;
   width: 27px;
@@ -1292,7 +1302,12 @@
   background-color: rgba(255, 0, 0, 0.1) !important;
   border-color: rgba(0, 0, 0, 0) !important;
 }
-
+.btn-kanan-albi{
+  float: right;
+}
+.btn-kiri-albi{
+  float: kiri;
+}
 
 
 

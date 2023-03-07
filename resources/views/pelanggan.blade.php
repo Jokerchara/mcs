@@ -18,7 +18,7 @@
         <div class="card earning-card">
           <div class="card-body p-0">
                 <div class="card-body">
-                    <div class="header-top">
+                    <div class="header-top mb-4">
                        <font color="grey"><i><h3 class="m-0">Daftar Pelanggan</h3></i></font>
                     </div>
                     <div style="margin: 10px">
